@@ -32,4 +32,4 @@ Formatar CPF's
 - Acessar http://localhost
 
 ---
-
+![docs/readme/preview.png](docs/readme/preview.png)
