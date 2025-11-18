@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "0273ab9d-7e8a-47a6-a605-7b225a6d1ad3",
+		"name": "LandtechTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4171785",
+		"_collection_link": "https://bold-comet-870629.postman.co/workspace/Gabriel-Morgado~0ac25c92-998e-4bd1-8a83-a4e18cbd773b/collection/4171785-0273ab9d-7e8a-47a6-a605-7b225a6d1ad3?action=share&source=collection_link&creator=4171785"
+	},
+	"item": [
+		{
+			"name": "http://localhost/api/cpf-formatter",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cpfs\": [\r\n        \"390.400.638-00\",\r\n        \"420-848.450-09\",\r\n        \"950'460.190-19\",\r\n        \"483~314.530-85\",\r\n        \"86.245.090-09\"\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api/cpf-formatter",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"cpf-formatter"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
