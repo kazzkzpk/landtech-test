@@ -23,6 +23,11 @@ Formatar CPF's
 
 ---
 
+## Prévia
+![docs/readme/preview.png](https://raw.githubusercontent.com/kazzkzpk/landtech-test/refs/heads/main/docs/readme/preview.png)
+
+---
+
 ## Como rodar
 
 - `composer install`
@@ -31,5 +36,3 @@ Formatar CPF's
 - `npm run dev`
 - Acessar http://localhost
 
----
-![docs/readme/preview.png](docs/readme/preview.png)
